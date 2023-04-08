@@ -1,2 +1,1 @@
-# Open-Jira
-Clone del Jira de Microsoft
+# Open Jira Next JS
