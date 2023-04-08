@@ -13,7 +13,7 @@ import '@/styles/globals.css'
 export default function App({ Component, pageProps }: AppProps) {
   const basicTheme = createTheme({
     palette: {
-      mode: 'dark',
+      mode: 'light',
     }
   });
   return (
