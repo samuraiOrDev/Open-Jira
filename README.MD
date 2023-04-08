@@ -1,1 +1,0 @@
-# Open Jira Next JS
