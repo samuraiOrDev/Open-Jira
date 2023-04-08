@@ -9,15 +9,11 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 /* Owner */
 import '@/styles/globals.css'
-
+import { lightTheme, darkTheme } from '@/themes';
 export default function App({ Component, pageProps }: AppProps) {
-  const basicTheme = createTheme({
-    palette: {
-      mode: 'light',
-    }
-  });
+
   return (
-    <ThemeProvider theme={basicTheme}>
+    <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Component {...pageProps} />
     </ThemeProvider>
